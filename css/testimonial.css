@@ -1,0 +1,178 @@
+.myButton {
+	background-color:transparent;
+	-moz-border-radius:28px;
+	-webkit-border-radius:28px;
+	border-radius:28px;
+	border:1px solid #0a0203;
+	display:inline-block;
+	cursor:pointer;
+	color:black;
+	font-family:'Montserrat', sans-serif;
+	font-size:1.2rem;
+	padding:6px 31px;
+    margin-right: 1.5em;
+	text-decoration:none;
+
+
+
+}
+.myButton:hover {
+	background-color:transparent;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.buttons{
+    float: left;
+}
+
+#right{
+	-ms-transform: rotate(180deg); /* IE 9 */
+    -webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
+    transform: rotate(180deg);
+}
+
+.circle{
+    width: 30px;
+    border-radius: 200px 200px 200px 200px;
+    -moz-border-radius: 200px 200px 200px 200px;
+    -webkit-border-radius: 200px 200px 200px 200px;
+    border: 2px solid #000000;
+}
+
+.glyphicon.glyphicon-menu-right {
+    color: black;
+}
+
+.glyphicon.glyphicon-menu-left {
+    color: black;
+}
+
+
+.autor{
+	font-size: 1.2rem;
+	padding-top: 0.5em;
+
+}
+
+img{
+	margin: auto;
+
+}
+
+#one{
+	width: 100%;
+}
+#two{
+	width: 100%;
+}
+
+
+@media (min-width:500px) and (max-width: 557px) {
+}
+
+
+
+
+@media (min-width:768px){
+	p{
+		text-align: left;
+
+	}
+	.textsection{
+		height: 233px!important;
+	}
+
+     }
+
+@media (max-width:767px){
+
+.textsection{
+	height: 3000px!important;
+}
+
+.autorpic{
+	width: 65%!important;
+}
+
+
+
+
+	img#two{
+		width: 100%;
+		margin: 0 auto 0 auto;
+	}
+
+	.carousel-inner{
+		height: 40em;
+	}
+
+	.autor{
+		padding-bottom: 2em;
+	}
+
+	p{
+		margin-bottom: 2em;
+		text-align: center !important;
+	}
+
+	article.buttons{
+		margin-left: : 2em;
+	}
+
+
+
+}
+
+@media (min-width:768px) and (max-width:991px){
+	p.aligntext{
+		margin-left: -1.4em;
+	}
+
+	p.autor{
+		margin-left: -1.7em;
+	}
+
+	.buttonalign{
+		margin-left: 11.7em;
+	}
+
+
+}
+
+@media (min-width:992px){
+	p.aligntext{
+		padding-left: 2em;
+	}
+
+	.autor{
+		font-size: 1.2rem;
+		padding-left: 0;
+		margin-left: 2.5em;
+	}
+
+	.buttonalign{
+		margin-left: 19em;
+	}
+
+}
+
+@media (min-width:1200px){
+	p.aligntext{
+		padding-left: 4.8em;
+
+	}
+
+	.autor{
+
+		padding-left: 3.8em;
+
+	}
+
+	.buttonalign{
+		margin-left: 26em;
+	}
+
+}

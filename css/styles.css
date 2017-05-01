@@ -1,0 +1,122 @@
+#main-logo {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px; /* fallback old navigators */
+    font-size: 4rem;
+    font-weight: 700;
+    color: black;
+
+}
+
+
+#main-menu.nav-pills>li.active>a,
+#main-menu.nav-pills>li.active>a:hover,
+#main-menu.nav-pills>li.active>a:focus,
+#main-menu.nav-pills>li>a:hover{
+    background: none;
+    color: black;
+    margin-top: 2em;
+}
+#primero{
+    text-align: center;
+}
+
+#primero img{
+    margin-top: 3em;
+    width: 15%;
+}
+#primero h3{
+    margin-top: 3em;
+    margin-bottom: 4em;
+
+}
+#tercero{
+    height: 450px;
+}
+#tercero h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px; /* fallback old navigators */
+    font-size: 4rem;
+    font-weight: 700;
+    color: black;
+    text-align: center;
+    margin-left: -4em;
+
+}
+
+
+
+#cuarto h1{
+    margin-top: -13em;
+    margin-left: -3em;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px; /* fallback old navigators */
+    font-size: 4rem;
+    font-weight: 400;
+    color:white;
+
+}
+
+.buttonsapp{
+    width: 50%;
+    margin-top: -45em;
+    margin-left: -30em;
+
+}
+#google{
+    margin-left: -42em;
+}
+#cinco{
+    background-color: #5e61b8;
+    height: 500px;
+    color: white;
+    margin-top: -1.4em;
+}
+#cinco h1{
+    margin-top: 3.2em;
+
+}
+#cinco p{
+    margin-top: 3em;
+}
+
+#cinco img{
+    margin-top: 4em;
+}
+
+#seis{
+    height: 300px;
+    text-align: center;
+}
+
+#seis h1{
+    margin-top: 1.5em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+#seis h2{
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+#pie{
+    background-color: #0184e6;
+    height: 100px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 5px; /* fallback old navigators */
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+#footer-menu.nav-pills>li.active>a,
+#footer-menu.nav-pills>li.active>a:hover,
+#footer-menu.nav-pills>li.active>a:focus,
+#footer-menu.nav-pills>li>a:hover{
+    background: none;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 5px; /* fallback old navigators */
+    font-size: 1.5rem;
+    font-weight: 700;
